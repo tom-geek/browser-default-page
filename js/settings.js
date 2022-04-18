@@ -1,4 +1,4 @@
-fetch('./settings.json').then(response => {
+fetch('https://github.com/tom-geek/browser-default-page/blob/main/js/settings.json').then(response => {
   return response.json();
 }).then(data => {
   document.write(data);
